@@ -1,64 +1,64 @@
 <!DOCTYPE html>
-<html lang="my">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>BurmaI-zone.com</title>
+    <title>BURMA-XNX.COM</title>
     
+    <!-- Google Fonts & FontAwesome Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <script src="https://pl30532973.effectivecpmnetwork.com/c4/00/bd/c400bd34fd4c3cddcf17ca6d47b85b49.js"></script>
+    <!-- Adsterra Popunder Code -->
+    <script src="https://pl31171672.profitableratecpmnetwork.com/b1/3e/90/b13e907cd9bf7dbaf46918ace3dc15b2.js"></script>
 
     <style>
+        /* 1XBET PREMIUM PALETTE */
         :root {
-            /* Dark UI Palette strictly matched to image */
-            --bg-base: #0E0E10;
-            --bg-card: #16161C;
-            --bg-surface: #1E1E26;
-            --bg-dock: #14141A;
+            --bg-base: #0A141D;
+            --bg-card: #12212E;
+            --bg-surface: #1B2E3E;
+            --bg-dock: rgba(10, 20, 29, 0.96);
             
-            /* Accent Yellow & Gold Gradients */
-            --brand-yellow: #FFC107;
-            --brand-gold-glow: #F59E0B;
-            --brand-gradient: linear-gradient(135deg, #F59E0B, #D97706);
+            --brand-yellow: #FFB800;
+            --brand-cyan: #0088CC;
+            --brand-accent: #00A3FF;
             
             --text-main: #FFFFFF;
-            --text-muted: #9CA3AF;
+            --text-muted: #8FA2B3;
             --border-fine: rgba(255, 255, 255, 0.08);
             
-            --shadow-lux: 0 10px 30px rgba(0, 0, 0, 0.6);
-            --shadow-dock: 0 -5px 25px rgba(0, 0, 0, 0.8);
-            --font-main: 'Padauk', 'Plus Jakarta Sans', sans-serif;
+            --shadow-lux: 0 10px 30px rgba(0, 0, 0, 0.5);
+            --font-luxury: 'Montserrat', sans-serif;
         } 
 
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: var(--font-main);
+            font-family: var(--font-luxury);
             -webkit-tap-highlight-color: transparent;
         } 
 
         body {
-            background-color: #050507;
+            background-color: #050A0F;
             color: var(--text-main);
             display: flex;
             justify-content: center;
             min-height: 100vh;
         } 
 
-        /* 📱 App Shell Container */
         .app-shell {
             width: 100%;
             max-width: 430px;
             min-height: 100vh;
             position: relative;
-            padding-bottom: 90px;
+            padding-bottom: 110px;
             overflow-x: hidden;
             background-color: var(--bg-base);
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
             border-left: 1px solid var(--border-fine);
             border-right: 1px solid var(--border-fine);
         } 
@@ -73,22 +73,23 @@
         } 
 
         @keyframes luxFadeUp {
-            from { opacity: 0; transform: translateY(15px); }
+            from { opacity: 0; transform: translateY(12px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* ==================== TOP HEADER UI MATCH ==================== */
+        /* HEADER & SEARCH */
         .header-lux {
             position: sticky;
             top: 0;
             z-index: 100;
-            background: rgba(14, 14, 16, 0.96);
+            background: rgba(10, 20, 29, 0.96);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             padding: 14px 16px 10px 16px;
             display: flex;
             flex-direction: column;
             gap: 12px;
+            border-bottom: 1px solid var(--border-fine);
         }
 
         .top-row-bar {
@@ -100,39 +101,37 @@
         .logo-box {
             display: flex;
             align-items: center;
-            gap: 6px;
-        }
-
-        .logo-box .flame-icon {
-            font-size: 1.3rem;
+            gap: 8px;
         }
 
         .logo-box span {
-            color: #FFFFFF;
+            color: var(--brand-yellow);
             font-weight: 900;
-            font-size: 1.3rem;
+            font-size: 1.25rem;
             letter-spacing: 0.5px;
+            text-shadow: 0 2px 10px rgba(255, 184, 0, 0.3);
         }
 
-        .live-badge {
-            background: rgba(16, 185, 129, 0.15);
-            border: 1px solid rgba(16, 185, 129, 0.4);
+        .live-dot-badge {
+            padding: 4px 10px;
+            background: rgba(0, 163, 255, 0.15);
             border-radius: 20px;
-            padding: 2px 10px;
             display: flex;
             align-items: center;
             gap: 6px;
-            color: #10B981;
-            font-size: 0.75rem;
-            font-weight: 700;
+            border: 1px solid rgba(0, 163, 255, 0.3);
+            font-size: 0.65rem;
+            font-weight: 800;
+            color: var(--brand-cyan);
         }
 
-        .live-badge-dot {
+        .live-dot-badge::before {
+            content: '';
             width: 6px;
             height: 6px;
-            background-color: #10B981;
+            background-color: var(--brand-cyan);
             border-radius: 50%;
-            box-shadow: 0 0 6px #10B981;
+            box-shadow: 0 0 8px var(--brand-cyan);
         }
 
         .search-lux-box {
@@ -144,10 +143,10 @@
             width: 100%;
             background: var(--bg-surface);
             border: 1px solid var(--border-fine);
-            border-radius: 12px;
+            border-radius: 10px;
             padding: 10px 16px 10px 40px;
             color: var(--text-main);
-            font-size: 0.88rem;
+            font-size: 0.85rem;
             font-weight: 500;
             outline: none;
             transition: all 0.3s ease;
@@ -155,7 +154,7 @@
 
         .search-lux-box input:focus {
             border-color: var(--brand-yellow);
-            box-shadow: 0 0 15px rgba(255, 193, 7, 0.2);
+            box-shadow: 0 0 15px rgba(255, 184, 0, 0.2);
         }
 
         .search-icon-lux {
@@ -163,149 +162,131 @@
             left: 14px;
             top: 50%;
             transform: translateY(-50%);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
         }
 
-        /* ==================== CATEGORY PILLS ==================== */
+        /* HERO CAROUSEL */
+        .hero-banner-section {
+            padding: 14px 16px 4px 16px;
+        }
+
+        .banner-carousel-container {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            aspect-ratio: 16/9;
+            box-shadow: var(--shadow-lux);
+            border: 1px solid var(--border-fine);
+        }
+
+        .banner-track {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        .banner-slide {
+            min-width: 100%;
+            height: 100%;
+            position: relative;
+            cursor: pointer;
+            background: var(--bg-card);
+        }
+
+        .banner-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .banner-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(10,20,29,0.95) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 12px 14px;
+        }
+
+        .banner-tag {
+            background: var(--brand-yellow);
+            color: #000;
+            font-size: 0.6rem;
+            font-weight: 900;
+            padding: 2px 8px;
+            border-radius: 4px;
+            width: fit-content;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .banner-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #FFF;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .carousel-dots {
+            position: absolute;
+            bottom: 8px;
+            right: 12px;
+            display: flex;
+            gap: 5px;
+            z-index: 10;
+        }
+
+        .dot-item {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .dot-item.active {
+            width: 16px;
+            border-radius: 10px;
+            background: var(--brand-yellow);
+        }
+
+        /* CATEGORY PILLS */
         .pill-carousel-lux {
             display: flex;
             gap: 8px;
             overflow-x: auto;
-            padding: 4px 16px 14px 16px;
+            padding: 12px 16px;
         }
         .pill-carousel-lux::-webkit-scrollbar { display: none; }
 
         .pill-lux {
-            padding: 6px 18px;
-            background: #1F1F26;
+            padding: 8px 18px;
+            background: var(--bg-surface);
             border: 1px solid var(--border-fine);
-            border-radius: 20px;
-            color: #D1D5DB;
-            font-size: 0.85rem;
-            font-weight: 600;
+            border-radius: 8px;
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 700;
             white-space: nowrap;
             cursor: pointer;
             transition: all 0.25s ease;
         }
 
         .pill-lux.active {
-            background: #FFC107;
+            background: var(--brand-yellow);
             color: #000000;
-            border-color: #FFC107;
-            font-weight: 800;
-            box-shadow: 0 0 12px rgba(255, 193, 7, 0.4);
+            border-color: transparent;
         }
 
-        /* ==================== HERO FEATURED BANNER ==================== */
-        .hero-banner-card {
-            margin: 0 14px 16px 14px;
-            background: linear-gradient(180deg, rgba(30, 25, 10, 0.9) 0%, rgba(15, 15, 18, 0.95) 100%), #1A1A22;
-            border: 1px solid rgba(255, 193, 7, 0.3);
-            border-radius: 16px;
-            padding: 18px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .hero-banner-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 120px;
-            height: 100%;
-            background: radial-gradient(circle, rgba(255, 193, 7, 0.15) 0%, transparent 70%);
-            pointer-events: none;
-        }
-
-        .hero-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            background: rgba(255, 193, 7, 0.15);
-            color: #FFC107;
-            border: 1px solid rgba(255, 193, 7, 0.4);
-            font-size: 0.68rem;
-            font-weight: 800;
-            padding: 2px 8px;
-            border-radius: 12px;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-        }
-
-        .hero-title {
-            font-size: 1.35rem;
-            font-weight: 800;
-            color: #FFFFFF;
-            margin-bottom: 4px;
-            line-height: 1.3;
-        }
-
-        .hero-sub {
-            font-size: 0.78rem;
-            color: #9CA3AF;
-            margin-bottom: 14px;
-        }
-
-        .hero-btn {
-            background: #FFC107;
-            color: #000000;
-            border: none;
-            padding: 8px 22px;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 0.85rem;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
-            transition: transform 0.2s ease;
-        }
-
-        .hero-btn:active {
-            transform: scale(0.95);
-        }
-
-        /* Section Title Header */
-        .section-header-bar {
-            padding: 0 16px 10px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .section-title {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 1.1rem;
-            font-weight: 800;
-            color: #FFFFFF;
-        }
-
-        .section-title::before {
-            content: '';
-            width: 4px;
-            height: 16px;
-            background: #FFC107;
-            border-radius: 2px;
-        }
-
-        .page-indicator-badge {
-            background: #1E1E26;
-            color: var(--text-muted);
-            font-size: 0.7rem;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid var(--border-fine);
-        }
-
-        /* ==================== 2-COLUMN GRID ==================== */
+        /* 2-COLUMN GRID */
         .stream-grid-layout {
-            padding: 0 14px;
+            padding: 0 14px 14px 14px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 12px;
@@ -313,14 +294,14 @@
 
         .lux-card {
             background: var(--bg-card);
-            border-radius: 14px;
+            border-radius: 10px;
             overflow: hidden;
             cursor: pointer;
             display: flex;
             flex-direction: column;
             border: 1px solid var(--border-fine);
             box-shadow: var(--shadow-lux);
-            transition: transform 0.25s ease, border-color 0.25s ease;
+            transition: transform 0.25s ease;
         }
 
         .lux-card:active {
@@ -330,8 +311,8 @@
         .lux-media {
             position: relative;
             width: 100%;
-            aspect-ratio: 4/3;
-            background: #1C1C24;
+            aspect-ratio: 3/4;
+            background: var(--bg-surface);
         }
 
         .lux-media img {
@@ -340,81 +321,68 @@
             object-fit: cover;
         }
 
-        .hd-tag-badge {
-            position: absolute;
-            top: 6px;
-            left: 6px;
-            background: #FFC107;
-            color: #000000;
-            padding: 1px 5px;
-            border-radius: 4px;
-            font-size: 0.62rem;
-            font-weight: 900;
-        }
-
         .duration-lux-badge {
             position: absolute;
             bottom: 6px;
             right: 6px;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(10, 20, 29, 0.85);
             backdrop-filter: blur(4px);
             padding: 2px 6px;
             border-radius: 4px;
-            font-size: 0.68rem;
+            font-size: 0.65rem;
             font-weight: 700;
-            color: #FFFFFF;
+            color: var(--brand-yellow);
         }
 
         .fav-lux-trigger {
             position: absolute;
             top: 6px;
             right: 6px;
-            width: 26px;
-            height: 26px;
-            background: rgba(0, 0, 0, 0.6);
+            width: 28px;
+            height: 28px;
+            background: rgba(10, 20, 29, 0.75);
             backdrop-filter: blur(4px);
-            border-radius: 50%;
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 0.8rem;
             color: #FFFFFF;
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            border: 1px solid var(--border-fine);
         }
 
         .fav-lux-trigger.active {
-            color: #EF4444;
-            background: rgba(255, 255, 255, 0.9);
+            color: var(--brand-yellow);
         }
 
         .share-lux-trigger {
             position: absolute;
-            bottom: 6px;
+            top: 6px;
             left: 6px;
-            height: 22px;
-            padding: 0 6px;
-            background: rgba(0, 0, 0, 0.6);
+            height: 26px;
+            padding: 0 8px;
+            background: rgba(10, 20, 29, 0.75);
             backdrop-filter: blur(4px);
-            border-radius: 10px;
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 3px;
-            font-size: 0.62rem;
-            font-weight: 600;
+            gap: 4px;
+            font-size: 0.65rem;
+            font-weight: 700;
             color: #FFFFFF;
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            border: 1px solid var(--border-fine);
         }
 
         .lux-details {
-            padding: 8px 10px;
+            padding: 10px;
             display: flex;
             flex-direction: column;
-            gap: 2px;
+            gap: 4px;
         }
 
         .lux-title {
-            font-size: 0.82rem;
+            font-size: 0.8rem;
             font-weight: 600;
             color: var(--text-main);
             line-height: 1.3;
@@ -423,56 +391,7 @@
             text-overflow: ellipsis;
         }
 
-        /* CATEGORY CARDS (Grid Mode for Category View) */
-        .category-cards-grid {
-            padding: 0 14px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-        }
-
-        .cat-card {
-            border-radius: 14px;
-            padding: 16px 14px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            min-height: 85px;
-            position: relative;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.2s;
-        }
-
-        .cat-card:active { transform: scale(0.97); }
-
-        .cat-card .cat-arrow {
-            position: absolute;
-            right: 12px;
-            top: 12px;
-            width: 20px;
-            height: 20px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.7rem;
-            color: #FFF;
-        }
-
-        .cat-card .cat-title-my { font-size: 1rem; font-weight: 800; color: #FFF; }
-        .cat-card .cat-title-en { font-size: 0.72rem; color: rgba(255, 255, 255, 0.8); }
-
-        /* CATEGORY GRADIENTS MATCHED TO IMAGE */
-        .cat-mm { background: linear-gradient(135deg, #FF4500, #FF6B00); }
-        .cat-jp { background: linear-gradient(135deg, #2563EB, #3B82F6); }
-        .cat-th { background: linear-gradient(135deg, #A855F7, #C084FC); }
-        .cat-as { background: linear-gradient(135deg, #0D9488, #14B8A6); }
-        .cat-cn { background: linear-gradient(135deg, #DC2626, #EF4444); }
-        .cat-ws { background: linear-gradient(135deg, #2563EB, #1D4ED8); }
-
-        /* ==================== PLAYER VIEW ==================== */
+        /* PLAYER VIEW */
         .player-nav-lux {
             padding: 12px 16px;
             display: flex;
@@ -485,14 +404,14 @@
         .btn-lux-back {
             background: var(--bg-surface);
             border: 1px solid var(--border-fine);
-            color: var(--text-main);
+            color: var(--brand-yellow);
             width: 36px;
             height: 36px;
-            border-radius: 10px;
+            border-radius: 8px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             cursor: pointer;
         }
 
@@ -520,7 +439,7 @@
 
         .title-lux-viewport {
             padding: 14px 16px;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 700;
             line-height: 1.4;
             color: var(--text-main);
@@ -536,90 +455,124 @@
             background: var(--bg-surface);
             border: 1px solid var(--border-fine);
             color: var(--brand-yellow);
-            padding: 6px 14px;
-            border-radius: 8px;
-            font-size: 0.75rem;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 0.72rem;
             font-weight: 700;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
-        /* MONETIZATION CARD */
-        .monetize-lux-card {
+        .label-lux-section {
+            padding: 18px 16px 10px 16px;
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: var(--text-main);
+            letter-spacing: 0.3px;
+        }
+
+        /* PROMOTIONAL GAMING ADS SECTION */
+        .promo-lux-card {
             margin: 14px 16px;
-            padding: 16px;
-            background: var(--bg-card);
-            border-radius: 14px;
+            padding: 18px;
+            background: linear-gradient(145deg, #12212E, #1B2E3E);
+            border-radius: 12px;
             text-align: center;
-            border: 1px dashed var(--brand-yellow);
+            border: 1px solid var(--brand-yellow);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
         }
 
-        .monetize-header {
+        .promo-header {
             color: var(--brand-yellow);
             font-size: 0.95rem;
             font-weight: 800;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
         }
 
-        .btn-lux-action {
-            display: inline-block;
-            background: var(--brand-gradient);
-            color: #FFFFFF;
-            padding: 10px 24px;
-            border-radius: 10px;
+        .promo-desc {
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 14px;
+        }
+
+        .promo-actions-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .btn-promo-action {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            background: var(--brand-yellow);
+            color: #000000;
+            padding: 10px 12px;
+            border-radius: 8px;
             text-decoration: none;
-            font-weight: 700;
-            font-size: 0.82rem;
-            margin-top: 10px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            transition: opacity 0.2s;
         }
 
-        /* ==================== BOTTOM FLOATING NAV BAR ==================== */
-        .bottom-nav-bar {
+        .btn-promo-action.alt {
+            background: #0088CC;
+            color: #FFFFFF;
+        }
+
+        /* DOCK NAV */
+        .floating-dock {
             position: fixed;
-            bottom: 0;
+            bottom: 16px;
             left: 50%;
             transform: translateX(-50%);
-            width: 100%;
-            max-width: 430px;
-            background: rgba(20, 20, 26, 0.96);
+            width: calc(100% - 32px);
+            max-width: 398px;
+            background: var(--bg-dock);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border-top: 1px solid var(--border-fine);
+            border: 1px solid var(--border-fine);
+            border-radius: 12px;
             display: flex;
             justify-content: space-around;
-            padding: 8px 0 10px 0;
+            padding: 10px 0;
             z-index: 999;
-            box-shadow: var(--shadow-dock);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
         }
 
         .dock-item-lux {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 2px;
-            color: #9CA3AF;
-            font-size: 0.72rem;
-            font-weight: 600;
+            gap: 4px;
+            color: var(--text-muted);
+            font-size: 0.68rem;
+            font-weight: 700;
             cursor: pointer;
-            width: 25%;
         }
 
         .dock-item-lux.active {
-            color: #FFC107;
-            font-weight: 800;
+            color: var(--brand-yellow);
         }
 
         .dock-icon-lux {
-            font-size: 1.15rem;
+            font-size: 1rem;
         }
 
-        /* Modals & Loaders */
+        /* MODALS & LOADERS */
         .glass-gate-screen {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.88);
+            background: rgba(5, 10, 15, 0.92);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
             display: flex;
@@ -633,35 +586,35 @@
             background: var(--bg-card);
             width: 100%;
             max-width: 320px;
-            border-radius: 20px;
+            border-radius: 14px;
             padding: 28px 20px;
             text-align: center;
             border: 1px solid var(--border-fine);
         }
 
         .gate-lux-title {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
             font-weight: 800;
             color: var(--brand-yellow);
             margin-bottom: 8px;
         }
 
         .gate-lux-desc {
-            font-size: 0.82rem;
+            font-size: 0.8rem;
             color: var(--text-muted);
             line-height: 1.5;
             margin-bottom: 20px;
         }
 
         .btn-gate-lux-confirm {
-            background: var(--brand-gradient);
-            color: #FFFFFF;
+            background: var(--brand-yellow);
+            color: #000000;
             border: none;
             width: 100%;
             padding: 12px;
-            border-radius: 10px;
-            font-size: 0.88rem;
-            font-weight: 700;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 800;
             cursor: pointer;
         }
 
@@ -670,7 +623,7 @@
             text-align: center;
             padding: 40px 20px;
             color: var(--text-muted);
-            font-size: 0.85rem;
+            font-size: 0.82rem;
         }
         
         .lux-spinner {
@@ -684,7 +637,6 @@
         }
         @keyframes luxRotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        /* Toast Popup Notification */
         .lux-toast {
             position: fixed;
             top: 20px;
@@ -694,16 +646,15 @@
             color: #000000;
             padding: 8px 18px;
             border-radius: 20px;
-            font-weight: 700;
-            font-size: 0.8rem;
-            box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+            font-weight: 800;
+            font-size: 0.75rem;
+            box-shadow: 0 4px 15px rgba(255, 184, 0, 0.4);
             z-index: 10000;
             transition: transform 0.35s ease;
         }
         .lux-toast.show {
             transform: translateX(-50%) translateY(0);
         }
-
     </style>
 </head>
 <body> 
@@ -714,9 +665,9 @@
 <!-- 18+ Verification Modal -->
 <div class="glass-gate-screen" id="gateModal">
     <div class="lux-gate-card">
-        <div class="gate-lux-title">Age Verification</div>
+        <div class="gate-lux-title">AGE VERIFICATION</div>
         <div class="gate-lux-desc">
-            Welcome to MMPRON. This platform contains adult content suited for audiences aged 18 and older.
+            Welcome to BURMA-XNX.COM. This platform contains adult material intended for individuals aged 18 and older.
         </div>
         <button class="btn-gate-lux-confirm" onclick="document.getElementById('gateModal').style.display='none'">AGREE & ENTER (18+)</button>
     </div>
@@ -726,7 +677,7 @@
 <div class="glass-gate-screen" id="adPortalModal" style="display: none;">
     <div class="lux-gate-card" style="padding: 0; overflow: hidden; max-width: 360px;">
         <iframe id="interstitialFrame" src="" style="width: 100%; aspect-ratio: 4/3; border: none;"></iframe>
-        <div style="background: var(--bg-card); padding: 12px; color: var(--brand-yellow); font-weight: 700; font-size: 0.82rem; border-top: 1px solid var(--border-fine);" id="timerCountdown">
+        <div style="background: var(--bg-card); padding: 12px; color: var(--brand-yellow); font-weight: 700; font-size: 0.8rem; border-top: 1px solid var(--border-fine);" id="timerCountdown">
             Verifying secure link in 10s...
         </div>
     </div>
@@ -739,109 +690,47 @@
         <div class="header-lux">
             <div class="top-row-bar">
                 <div class="logo-box">
-                    <span class="flame-icon">🔥</span>
-                    <span>BURMAI-zOne</span>
+                    <span>BURMA-XNX.COM</span>
                 </div>
-                <div class="live-badge">
-                    <div class="live-badge-dot"></div>
-                    <span>LIVE</span>
-                </div>
+                <div class="live-dot-badge">LIVE</div>
             </div>
             
             <div class="search-lux-box">
-                <span class="search-icon-lux">🔍</span>
+                <i class="fa-solid fa-magnifying-glass search-icon-lux"></i>
                 <input type="text" id="queryInput" placeholder="Search videos...">
             </div>
         </div>
 
-        <!-- Horizontal Category Pills -->
+        <!-- Dynamic Hero Banner Carousel -->
+        <div class="hero-banner-section">
+            <div class="banner-carousel-container">
+                <div class="banner-track" id="heroBannerTrack">
+                    <!-- Dynamic Slides -->
+                </div>
+                <div class="carousel-dots" id="bannerDotsContainer"></div>
+            </div>
+        </div>
+
         <div class="pill-carousel-lux">
-            <div class="pill-lux active" onclick="filterQuery('myanmar', this)">မြန်မာ</div>
-            <div class="pill-lux" onclick="filterQuery('japanese', this)">ဂျပန် JAV</div>
-            <div class="pill-lux" onclick="filterQuery('thai', this)">ထိုင်း</div>
-            <div class="pill-lux" onclick="filterQuery('asian', this)">Asian</div>
-            <div class="pill-lux" onclick="filterQuery('chinese', this)">တရုတ်</div>
-        </div>
-
-        <!-- Featured Banner Section Matched to Image -->
-        <div class="hero-banner-card">
-            <div class="hero-tag">● PREMIUM</div>
-            <div class="hero-title">မြန်မာ၏ နံပါတ် ၁ စင်တာ</div>
-            <div class="hero-sub">HD ကြည်လင်ပြတ်သား • မြန်မြန်ဆန်ဆန် • 24/7</div>
-            <button class="hero-btn" onclick="filterQuery('myanmar', document.querySelector('.pill-lux'))">
-                <span>▶</span> ကြည့်ရှုမယ်
-            </button>
-        </div>
-
-        <div class="section-header-bar">
-            <div class="section-title">ဗီဒီယိုများ</div>
-            <div class="page-indicator-badge">Page 1</div>
+            <div class="pill-lux active" onclick="filterQuery('asian', this)">All</div>
+            <div class="pill-lux" onclick="filterQuery('japanese', this)">Japan</div>
+            <div class="pill-lux" onclick="filterQuery('myanmar', this)">Myanmar</div>
+            <div class="pill-lux" onclick="filterQuery('korean', this)">Korea</div>
+            <div class="pill-lux" onclick="filterQuery('other', this)">Other</div>
         </div>
 
         <div class="stream-grid-layout" id="homeStream">
-            <!-- Dynamic Injection Grid -->
-        </div>
-    </div>
-
-    <!-- PANEL: CATEGORIES VIEW MATCHED TO IMAGE 2 -->
-    <div id="panelCat" class="view-panel">
-        <div class="header-lux">
-            <div class="top-row-bar">
-                <div class="logo-box">
-                    <span class="flame-icon">🔥</span>
-                    <span>BURMAI-zOne.com</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-header-bar" style="margin-top: 10px;">
-            <div class="section-title">အမျိုးအစားများ</div>
-        </div>
-
-        <div class="category-cards-grid">
-            <div class="cat-card cat-mm" onclick="filterQuery('myanmar', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">မြန်မာ</div>
-                <div class="cat-title-en">Myanmar</div>
-            </div>
-
-            <div class="cat-card cat-jp" onclick="filterQuery('japanese', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">ဂျပန် JAV</div>
-                <div class="cat-title-en">Japan</div>
-            </div>
-
-            <div class="cat-card cat-th" onclick="filterQuery('thai', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">ထိုင်း</div>
-                <div class="cat-title-en">Thailand</div>
-            </div>
-
-            <div class="cat-card cat-as" onclick="filterQuery('asian', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">Asian</div>
-                <div class="cat-title-en">Asian</div>
-            </div>
-
-            <div class="cat-card cat-cn" onclick="filterQuery('chinese', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">တရုတ်</div>
-                <div class="cat-title-en">Chinese</div>
-            </div>
-
-            <div class="cat-card cat-ws" onclick="filterQuery('western', this); navigateView('home');">
-                <div class="cat-arrow">❯</div>
-                <div class="cat-title-my">Western</div>
-                <div class="cat-title-en">Western</div>
-            </div>
+            <!-- Dynamic Grid -->
         </div>
     </div>
 
     <!-- PANEL: PLAYER -->
     <div id="panelPlayer" class="view-panel">
         <div class="player-nav-lux">
-            <div class="btn-lux-back" onclick="navigateView('home')">❮</div>
-            <div style="font-weight: 800; color: var(--text-main); font-size: 0.9rem;">BURMAI-zOne STREAM</div>
+            <div class="btn-lux-back" onclick="navigateView('home')">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div style="font-weight: 800; color: var(--text-main); font-size: 0.85rem; letter-spacing: 0.5px;">BURMA-XNX.COM</div>
         </div>
 
         <div class="viewport-lux">
@@ -851,20 +740,31 @@
 
         <div class="title-lux-viewport">
             <div id="videoActiveTitle">Loading title details...</div>
-            <button class="btn-share-player" id="playerShareBtn">🔗 Copy Video Link</button>
+            <button class="btn-share-player" id="playerShareBtn">
+                <i class="fa-solid fa-link"></i>
+                <span>Copy Video Link</span>
+            </button>
         </div>
 
-        <div class="monetize-lux-card">
-            <div class="monetize-header">ကြော်ငြာထည့်ရန်</div>
-            <div style="color: var(--text-muted); font-size: 0.8rem; font-weight: 500;">
-                စလော့၊ 2D3D နှင့် လုပ်ငန်းကြော်ငြာများကို အထူးဈေးနှုန်းဖြင့် ထည့်သွင်းပေးနေပါသည်။
+        <!-- GAMING PROMO SECTION -->
+        <div class="promo-lux-card">
+            <div class="promo-header">စလော့ | 2D3D | ကျွဲဂိမ်း | ငါးပစ်ဂိမ်း</div>
+            <div class="promo-desc">
+                အားလုံးကို တစ်နေရာတည်းမှာ ဆော့ကစားဖို့ ဆော့ကစားရန်ကို နှိပ်ပါ။
             </div>
-            <a href="https://t.me/mrkyaw0008" target="_blank" class="btn-lux-action">ဆက်သွယ်ရန်</a>
+            <div class="promo-actions-group">
+                <a href="https://t.me/burma789officialchannel" target="_blank" class="btn-promo-action">
+                    <i class="fa-paper-plane"></i>
+                    <span>CHANNEL</span>
+                </a>
+                <a href="https://t.me/myanmar2d3d4dbot" target="_blank" class="btn-promo-action alt">
+                    <i class="fa-robot"></i>
+                    <span>GAME BOT</span>
+                </a>
+            </div>
         </div>
 
-        <div class="section-header-bar" style="margin-top: 15px;">
-            <div class="section-title">Recommended Videos</div>
-        </div>
+        <div class="label-lux-section">Recommended Videos</div>
         <div class="stream-grid-layout" id="recommendStream"></div>
     </div>
 
@@ -873,43 +773,39 @@
         <div class="header-lux">
             <div class="top-row-bar">
                 <div class="logo-box">
-                    <span class="flame-icon">❤️</span>
-                    <span>SAVED</span>
+                    <span>SAVED COLLECTION</span>
                 </div>
             </div>
         </div>
-        <div class="stream-grid-layout" id="bookmarksStream" style="margin-top: 14px;"></div>
+        <div style="padding-top: 14px;"></div>
+        <div class="stream-grid-layout" id="bookmarksStream"></div>
     </div>
 
-    <!-- BOTTOM FIXED NAVIGATION (Exact matched to UI images) -->
-    <div class="bottom-nav-bar">
+    <!-- DOCK NAVIGATION -->
+    <div class="floating-dock">
         <div class="dock-item-lux active" id="dockHome" onclick="navigateView('home')">
-            <span class="dock-icon-lux">🏠</span>
-            <span>မူလ</span>
-        </div>
-        <div class="dock-item-lux" id="dockCat" onclick="navigateView('categories')">
-            <span class="dock-icon-lux">⊞</span>
-            <span>အမျိုးအစား</span>
+            <i class="fa-solid fa-house dock-icon-lux"></i>
+            <span>Home</span>
         </div>
         <div class="dock-item-lux" id="dockFav" onclick="triggerFavSecureTransition()">
-            <span class="dock-icon-lux">❤️</span>
-            <span>သိမ်းဆည်း</span>
-        </div>
-        <div class="dock-item-lux" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-            <span class="dock-icon-lux">▲</span>
-            <span>ထိပ်ဆုံး</span>
+            <i class="fa-solid fa-bookmark dock-icon-lux"></i>
+            <span>Favorites</span>
         </div>
     </div>
 
 </div> 
 
 <script>
-    let activeQuery = "myanmar"; 
+    let activeQuery = "asian"; 
     let idxHome = Math.floor(Math.random() * 5) + 1; 
     let idxRelated = Math.floor(Math.random() * 5) + 6;
     let lockScrollFetch = false;
     let currentPanel = "home"; 
     let activeVideoId = null;
+
+    let bannerItems = [];
+    let currentBannerIndex = 0;
+    let bannerInterval = null;
 
     if (!sessionStorage.getItem('processedKeys')) sessionStorage.setItem('processedKeys', JSON.stringify([]));
     if (!localStorage.getItem('savedCollection')) localStorage.setItem('savedCollection', JSON.stringify([]));
@@ -923,7 +819,7 @@
 
         document.getElementById('queryInput').addEventListener('keypress', function (e) {
             if (e.key === 'Enter') {
-                activeQuery = this.value.trim() || "myanmar";
+                activeQuery = this.value.trim() || "asian";
                 idxHome = Math.floor(Math.random() * 5) + 1;
                 executeFetchOperation(activeQuery, idxHome, 'homeStream', false);
                 this.blur();
@@ -931,7 +827,7 @@
         }); 
 
         window.addEventListener('scroll', () => {
-            if (currentPanel === "favorites" || currentPanel === "categories") return;
+            if (currentPanel === "favorites") return;
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 700) {
                 if (!lockScrollFetch) {
                     lockScrollFetch = true; 
@@ -961,7 +857,7 @@
         
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(shareableUrl).then(() => {
-                showToast("🔗 Link copied!");
+                showToast("Link copied to clipboard!");
             });
         } else {
             const input = document.createElement('input');
@@ -970,7 +866,7 @@
             input.select();
             document.execCommand('copy');
             document.body.removeChild(input);
-            showToast("🔗 Link copied!");
+            showToast("Link copied to clipboard!");
         }
     }
 
@@ -1002,10 +898,6 @@
             document.getElementById('dockHome').classList.add('active');
             document.getElementById('videoEmbedContainer').innerHTML = ""; 
             history.pushState("", document.title, window.location.pathname + window.location.search);
-        } else if (panelId === 'categories') {
-            document.getElementById('panelCat').classList.add('active');
-            document.getElementById('dockCat').classList.add('active');
-            document.getElementById('videoEmbedContainer').innerHTML = ""; 
         } else if (panelId === 'favorites') {
             document.getElementById('panelFavs').classList.add('active');
             document.getElementById('dockFav').classList.add('active');
@@ -1046,9 +938,7 @@
 
     function filterQuery(queryKeyword, component) {
         document.querySelectorAll('.pill-lux').forEach(c => c.classList.remove('active'));
-        if(component && component.classList.contains('pill-lux')) {
-            component.classList.add('active');
-        }
+        component.classList.add('active');
         activeQuery = queryKeyword;
         idxHome = Math.floor(Math.random() * 5) + 1;
         executeFetchOperation(activeQuery, idxHome, 'homeStream', false);
@@ -1062,11 +952,11 @@
         if (targetIdx > -1) {
             store.splice(targetIdx, 1);
             e.currentTarget.classList.remove('active');
-            e.currentTarget.innerHTML = '♡';
+            e.currentTarget.innerHTML = '<i class="fa-regular fa-bookmark"></i>';
         } else {
             store.push(packet);
             e.currentTarget.classList.add('active');
-            e.currentTarget.innerHTML = '❤️';
+            e.currentTarget.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
         }
         localStorage.setItem('savedCollection', JSON.stringify(store));
 
@@ -1078,7 +968,7 @@
         let store = JSON.parse(localStorage.getItem('savedCollection'));
 
         if (store.length === 0) {
-            board.innerHTML = `<div class="lux-state-msg">No saved items found.</div>`;
+            board.innerHTML = `<div class="lux-state-msg">No saved videos found.</div>`;
             return;
         }
 
@@ -1107,6 +997,11 @@
             let operationalYieldCount = 0;
 
             if (verifiedPayload.videos && verifiedPayload.videos.length > 0) {
+                
+                if (!isAppendation && TargetNodeId === 'homeStream') {
+                    setupHeroBannerCarousel(verifiedPayload.videos.slice(0, 5));
+                }
+
                 verifiedPayload.videos.forEach(entity => {
                     if (!processedKeys.includes(entity.id)) {
                         processedKeys.push(entity.id); 
@@ -1164,13 +1059,13 @@
         elementWrapper.innerHTML = `
             <div class="lux-media">
                 <img src="${dataset.thumb}" alt="Media Cover">
-                <div class="hd-tag-badge">HD</div>
                 <div class="share-lux-trigger" onclick="copyVideoLink(event, '${dataset.id}')">
-                    <span>🔗</span> <span>Share</span>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>Share</span>
                 </div>
                 <div class="duration-lux-badge">${dataset.duration}</div>
                 <div class="fav-lux-trigger ${activeMarker ? 'active' : ''}" onclick="toggleCollectionState(event, ${JSON.stringify(dataset).replace(/"/g, '&quot;')})">
-                    ${activeMarker ? '❤️' : '♡'}
+                    <i class="${activeMarker ? 'fa-solid' : 'fa-regular'} fa-bookmark"></i>
                 </div>
             </div>
             <div class="lux-details">
@@ -1194,9 +1089,49 @@
         idxRelated = Math.floor(Math.random() * 5) + 6;
         executeFetchOperation(activeQuery, idxRelated, 'recommendStream', false);
     } 
+
+    function setupHeroBannerCarousel(items) {
+        bannerItems = items;
+        const track = document.getElementById('heroBannerTrack');
+        const dotsContainer = document.getElementById('bannerDotsContainer');
+        
+        if (!track || !items || items.length === 0) return;
+
+        track.innerHTML = "";
+        dotsContainer.innerHTML = "";
+        currentBannerIndex = 0;
+        if (bannerInterval) clearInterval(bannerInterval);
+
+        items.forEach((item, index) => {
+            const slide = document.createElement('div');
+            slide.className = 'banner-slide';
+            slide.onclick = () => activateBroadcastStream(item.embed, item.title, item.id);
+            slide.innerHTML = `
+                <img src="${item.default_thumb.src}" alt="Hero Banner">
+                <div class="banner-overlay">
+                    <div class="banner-tag">Featured #${index + 1}</div>
+                    <div class="banner-title">${item.title}</div>
+                </div>
+            `;
+            track.appendChild(slide);
+
+            const dot = document.createElement('div');
+            dot.className = `dot-item ${index === 0 ? 'active' : ''}`;
+            dotsContainer.appendChild(dot);
+        });
+
+        bannerInterval = setInterval(() => {
+            currentBannerIndex = (currentBannerIndex + 1) % items.length;
+            track.style.transform = `translateX(-${currentBannerIndex * 100}%)`;
+            
+            const dots = dotsContainer.querySelectorAll('.dot-item');
+            dots.forEach((d, i) => d.classList.toggle('active', i === currentBannerIndex));
+        }, 3500);
+    }
 </script> 
 
-<script src="https://pl30532974.effectivecpmnetwork.com/a0/03/f4/a003f43f76e67da36cf6bc74a510c458.js"></script>
+<!-- Adsterra Social Bar Code -->
+<script src="https://pl31171673.profitableratecpmnetwork.com/b9/e4/7a/b9e47a9c8b987899bda6c7acedc25f7f.js"></script>
 
 </body>
 </html>
